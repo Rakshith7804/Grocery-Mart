@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="6; URL=http://127.0.0.1:5500/home.html">
+    <title>Autoplay Video Background</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            min-width: 100%;
+            min-height: 150%;
+            width:-webkit-fill-available;
+            height: -webkit-fill-available;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <video autoplay muted loop>
+        <source src="New Project 53 [4034F4C].mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>

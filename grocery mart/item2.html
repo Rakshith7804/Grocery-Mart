@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Project</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/iteam.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i>helthyFyGrocery </a>
+
+    <nav class="navbar">
+        <a href="http://127.0.0.1:5500/home.html">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+<!-- header section ends -->
+<hr>
+<br>
+<br>
+<br>
+<br>
+<!--drop down menu starts-->
+<div class="drop-down">
+<ul>
+    <div class="image-drop">
+        <img src="https://rukminim2.flixcart.com/flap/128/128/image/50474c.jpg?q=100" alt="staples">
+    <li class="active"><a href="#">Staples</a>
+    <div class="sub-menu">
+        <ul>
+            <li class="hover-me"><a href="http://127.0.0.1:5500/iteam.html">Dals & Pulses</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN DALS & PILSES</li>    
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Urad Dal</a></li>
+                    <li><a href="#">Moong Dal</a></li>
+                    <li><a href="#">Chana Dal</a></li>
+                    <li><a href="#">Other Pulses</a></li>
+                    <li><a href="#">Soya Chunks</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="http://127.0.0.1:5500/item2.html">Ghee & Oils</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN GHEE & OILS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Blended Oil</a></li>
+                    <li><a href="#"> Ghee</a></li>
+                    <li><a href="#"> Sunflower Oil</a></li>
+                    <li><a href="#">Rice Bran</a></li>
+                    <li><a href="#"> Olive Oil</a></li>
+                    <li><a href="#"> Groundnut Oils</a></li>
+                    <li><a href="#"> Mustard Oils</a></li>
+                    <li><a href="#">Other Oils</a></li>
+
+
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Atta & Flours</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN ATTA & FLOURS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Wheat Atta</a></li>
+                    <li><a href="#"> Rice Flour</a></li>
+                    <li><a href="#"> Maida</a></li>
+                    <li><a href="#">Other Flours</a></li>
+                    <li><a href="#"> Grains</a></li>
+                    <li><a href="#">Rava and Sooji</a></li>
+                    <li><a href="#">Besan</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Masalas & Spices</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN MASALAS & SPICES</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                        <li><a href="#"> Powdered Spices</a></li>
+                            <li><a href="#"> Ready Masalas</a></li>
+                            <li><a href="#">Cooking Pastes & Purees</a></li>
+                            <li><a href="#"> Herbs & Seasonings</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Rice & RiceProducts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN RICE PRODUCTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Sona Masoori Rice</a></li>
+                    <li><a href="#">Other Rice Varieties</a></li>
+                    <li><a href="#"> Poha</a></li>
+                    <li><a href="#"> Puffed Rice</a></li>
+                    <li><a href="#">Basmati Rice</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">DryFruites,Nuts & Seeds</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN DRYFRUITES,NUTS & SEEDS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Cashew Nuts</a></li>
+                    <li><a href="#">Almonds</a></li>
+                    <li><a href="#">Dates & Raisins</a></li>
+                    <li><a href="#"> Dried Fruits</a></li>
+                    <li><a href="#"> Edible Seeds</a></li>
+                    <li><a href="#">Other Nuts</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Sugar,Jaggery & Salts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN SUGAR,JAGGERY & SALTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Salt</a></li>
+                    <li><a href="#">Sugar</a></li>
+                    <li><a href="#">Sugar Free</a></li>
+                    <li><a href="#">Jaggery</a></li>
+                </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </li>
+    
+    </li>
+</div>
+<div class="image-drop">
+    <img src="https://rukminim2.flixcart.com/flap/128/128/image/9fbd36.jpg?q=100" alt="staples">
+    <li class="active"><a href="#">Snacks & Beverages</a>
+    <div class="sub-menu">
+        <ul>
+            <li class="hover-me"><a href="#">Biscuits</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN BISCUITS</li>    
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Cookies</a></li>
+                    <li><a href="#"> Cream Biscuits</a></li>
+                    <li><a href="#">Marie Digestive</a></li>
+                    <li><a href="#">Milk & Glucose</a></li>
+                    <li><a href="#"> Salted</a></li>
+                    <li><a href="#">Cheeslets</a></li>
+                    <li><a href="#">Wafers & Rusk</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Chips,Namkeen & Snacks</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN CHIPS,NAMKEEN & SNACKS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Namkeens</a></li>
+                    <li><a href="#"> Chips</a></li>
+                    <li><a href="#">  Popcorn, Papad & Fryums</a></li>
+                    <li><a href="#">Snacky Nuts</a></li>
+
+
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Tea</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN TEA</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Tea</a></li>
+                    <li><a href="#">Tea Bags</a></li>
+                    <li><a href="#"> Green Tea</a></li>
+                    <li><a href="#">Ice Tea</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Coffee</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN COFFEE</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Roast & Ground</a></li>
+                    <li><a href="#">Instant Coffee</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Juices</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN JUICES</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Fruit Drinks</a></li>
+                    <li><a href="#">Mixed Fruit Juices</a></li>
+                    <li><a href="#"> Guava Juices</a></li>
+                    <li><a href="#"> Lychee Juices</a></li>
+                    <li><a href="#">Orange Juices</a></li>
+                    <li><a href="#"> Apple Juices</a></li>
+                    <li><a href="#"> Cold Pressed Juices</a></li>
+                    <li><a href="#">Other Juices</a></li>
+
+
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Health Drink Mix</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN HEALTH DRINK MIX</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Health Drink Mix</a></li>
+                    
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Soft Drinks</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN SOFT DRINKS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Cold Drinks</a></li>
+                    <li><a href="#">Energy & Sports Drinks</a></li>
+                    <li><a href="#">Non Alcoholic Drinks</a></li>
+                    <li><a href="#">Soda & Tonic Water</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Instant Drink Mixes, Squash & Syrups</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN Instant Drink Mixes, Squash & Syrups</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Instant Drink Mixes</a></li>
+                    <li><a href="#">Squash</a></li>
+                    <li><a href="#">  Syrups</a></li>
+                    <li><a href="#">Fruit Crush</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Water</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN WATER</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Mineral Water</a></li>
+                </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </li>
+    
+    </li>
+</div>
+    <div class="image-drop">
+        <img src="https://rukminim2.flixcart.com/flap/128/128/image/ac8550.jpg?q=100" alt="staples">
+        <li class="active"><a href="#">Packaged Food</a>
+        <div class="sub-menu">
+            <ul>
+                <li class="hover-me"><a href="#">Dals & Pulses</a><i class="fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                        <li class="reference">MORE IN DALS & PILSES</li>    
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Urad Dal</a></li>
+                        <li><a href="#">Moong Dal</a></li>
+                        <li><a href="#">Chana Dal</a></li>
+                        <li><a href="#">Other Pulses</a></li>
+                        <li><a href="#">Soya Chunks</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="hover-me"><a href="#">Ghee & Oils</a><i class="fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                        <li class="reference">MORE IN GHEE & OILS</li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#"> Blended Oil</a></li>
+                        <li><a href="#"> Ghee</a></li>
+                        <li><a href="#"> Sunflower Oil</a></li>
+                        <li><a href="#">Rice Bran</a></li>
+                        <li><a href="#"> Olive Oil</a></li>
+                        <li><a href="#"> Groundnut Oils</a></li>
+                        <li><a href="#"> Mustard Oils</a></li>
+                        <li><a href="#">Other Oils</a></li>
+    
+    
+                    </ul>
+                    </div>
+                </li>
+                <li class="hover-me"><a href="#">Atta & Flours</a><i class="fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                        <li class="reference">MORE IN ATTA & FLOURS</li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#"> Wheat Atta</a></li>
+                        <li><a href="#"> Rice Flour</a></li>
+                        <li><a href="#"> Maida</a></li>
+                        <li><a href="#">Other Flours</a></li>
+                        <li><a href="#"> Grains</a></li>
+                        <li><a href="#">Rava and Sooji</a></li>
+                        <li><a href="#">Besan</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="hover-me"><a href="#">Masalas & Spices</a><i class="fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li class="reference">MORE IN MASALAS & SPICES</li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#"> Whole Spices</a></li>
+                        <li><a href="#"> Whole Spices</a></li>
+                            <li><a href="#"> Powdered Spices</a></li>
+                                <li><a href="#"> Ready Masalas</a></li>
+                                <li><a href="#">Cooking Pastes & Purees</a></li>
+                                <li><a href="#"> Herbs & Seasonings</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="hover-me"><a href="#">Rice & RiceProducts</a><i class="fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li class="reference">MORE IN RICE PRODUCTS</li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#"> Sona Masoori Rice</a></li>
+                        <li><a href="#">Other Rice Varieties</a></li>
+                        <li><a href="#"> Poha</a></li>
+                        <li><a href="#"> Puffed Rice</a></li>
+                        <li><a href="#">Basmati Rice</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="hover-me"><a href="#">DryFruites,Nuts & Seeds</a><i class="fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li class="reference">MORE IN DRYFRUITES,NUTS & SEEDS</li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#"> Cashew Nuts</a></li>
+                        <li><a href="#">Almonds</a></li>
+                        <li><a href="#">Dates & Raisins</a></li>
+                        <li><a href="#"> Dried Fruits</a></li>
+                        <li><a href="#"> Edible Seeds</a></li>
+                        <li><a href="#">Other Nuts</a></li>
+                    </ul>
+                    </div>
+                </li>
+                <li class="hover-me"><a href="#">Sugar,Jaggery & Salts</a><i class="fa-angle-right"></i>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li class="reference">MORE IN SUGAR,JAGGERY & SALTS</li>
+                        <li><a href="#">All</a></li>
+                        <li><a href="#">Salt</a></li>
+                        <li><a href="#">Sugar</a></li>
+                        <li><a href="#">Sugar Free</a></li>
+                        <li><a href="#">Jaggery</a></li>
+                    </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        </li>
+        
+        </li>
+    </div>
+    <div class="image-drop">
+        <img src="https://rukminim2.flixcart.com/flap/128/128/image/7670e2.jpg?q=100" alt="staples">
+    <li class="active"><a href="#">Personal & Baby Care</a>
+    <div class="sub-menu">
+        <ul>
+            <li class="hover-me"><a href="#">Dals & Pulses</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN DALS & PILSES</li>    
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Urad Dal</a></li>
+                    <li><a href="#">Moong Dal</a></li>
+                    <li><a href="#">Chana Dal</a></li>
+                    <li><a href="#">Other Pulses</a></li>
+                    <li><a href="#">Soya Chunks</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Ghee & Oils</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN GHEE & OILS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Blended Oil</a></li>
+                    <li><a href="#"> Ghee</a></li>
+                    <li><a href="#"> Sunflower Oil</a></li>
+                    <li><a href="#">Rice Bran</a></li>
+                    <li><a href="#"> Olive Oil</a></li>
+                    <li><a href="#"> Groundnut Oils</a></li>
+                    <li><a href="#"> Mustard Oils</a></li>
+                    <li><a href="#">Other Oils</a></li>
+
+
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Atta & Flours</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN ATTA & FLOURS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Wheat Atta</a></li>
+                    <li><a href="#"> Rice Flour</a></li>
+                    <li><a href="#"> Maida</a></li>
+                    <li><a href="#">Other Flours</a></li>
+                    <li><a href="#"> Grains</a></li>
+                    <li><a href="#">Rava and Sooji</a></li>
+                    <li><a href="#">Besan</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Masalas & Spices</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN MASALAS & SPICES</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                        <li><a href="#"> Powdered Spices</a></li>
+                            <li><a href="#"> Ready Masalas</a></li>
+                            <li><a href="#">Cooking Pastes & Purees</a></li>
+                            <li><a href="#"> Herbs & Seasonings</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Rice & RiceProducts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN RICE PRODUCTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Sona Masoori Rice</a></li>
+                    <li><a href="#">Other Rice Varieties</a></li>
+                    <li><a href="#"> Poha</a></li>
+                    <li><a href="#"> Puffed Rice</a></li>
+                    <li><a href="#">Basmati Rice</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">DryFruites,Nuts & Seeds</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN DRYFRUITES,NUTS & SEEDS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Cashew Nuts</a></li>
+                    <li><a href="#">Almonds</a></li>
+                    <li><a href="#">Dates & Raisins</a></li>
+                    <li><a href="#"> Dried Fruits</a></li>
+                    <li><a href="#"> Edible Seeds</a></li>
+                    <li><a href="#">Other Nuts</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Sugar,Jaggery & Salts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN SUGAR,JAGGERY & SALTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Salt</a></li>
+                    <li><a href="#">Sugar</a></li>
+                    <li><a href="#">Sugar Free</a></li>
+                    <li><a href="#">Jaggery</a></li>
+                </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </li>
+    
+    </li>
+</div>
+    <div class="image-drop">
+        <img src="https://rukminim2.flixcart.com/flap/128/128/image/b7ade9.jpg?q=100" alt="staples">
+    <li class="active"><a href="#">Household Care</a>
+    <div class="sub-menu">
+        <ul>
+            <li class="hover-me"><a href="#">Dals & Pulses</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN DALS & PILSES</li>    
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Urad Dal</a></li>
+                    <li><a href="#">Moong Dal</a></li>
+                    <li><a href="#">Chana Dal</a></li>
+                    <li><a href="#">Other Pulses</a></li>
+                    <li><a href="#">Soya Chunks</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Ghee & Oils</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN GHEE & OILS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Blended Oil</a></li>
+                    <li><a href="#"> Ghee</a></li>
+                    <li><a href="#"> Sunflower Oil</a></li>
+                    <li><a href="#">Rice Bran</a></li>
+                    <li><a href="#"> Olive Oil</a></li>
+                    <li><a href="#"> Groundnut Oils</a></li>
+                    <li><a href="#"> Mustard Oils</a></li>
+                    <li><a href="#">Other Oils</a></li>
+
+
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Atta & Flours</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN ATTA & FLOURS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Wheat Atta</a></li>
+                    <li><a href="#"> Rice Flour</a></li>
+                    <li><a href="#"> Maida</a></li>
+                    <li><a href="#">Other Flours</a></li>
+                    <li><a href="#"> Grains</a></li>
+                    <li><a href="#">Rava and Sooji</a></li>
+                    <li><a href="#">Besan</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Masalas & Spices</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN MASALAS & SPICES</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                        <li><a href="#"> Powdered Spices</a></li>
+                            <li><a href="#"> Ready Masalas</a></li>
+                            <li><a href="#">Cooking Pastes & Purees</a></li>
+                            <li><a href="#"> Herbs & Seasonings</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Rice & RiceProducts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN RICE PRODUCTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Sona Masoori Rice</a></li>
+                    <li><a href="#">Other Rice Varieties</a></li>
+                    <li><a href="#"> Poha</a></li>
+                    <li><a href="#"> Puffed Rice</a></li>
+                    <li><a href="#">Basmati Rice</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">DryFruites,Nuts & Seeds</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN DRYFRUITES,NUTS & SEEDS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Cashew Nuts</a></li>
+                    <li><a href="#">Almonds</a></li>
+                    <li><a href="#">Dates & Raisins</a></li>
+                    <li><a href="#"> Dried Fruits</a></li>
+                    <li><a href="#"> Edible Seeds</a></li>
+                    <li><a href="#">Other Nuts</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Sugar,Jaggery & Salts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN SUGAR,JAGGERY & SALTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Salt</a></li>
+                    <li><a href="#">Sugar</a></li>
+                    <li><a href="#">Sugar Free</a></li>
+                    <li><a href="#">Jaggery</a></li>
+                </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </li>
+    
+    </li>
+</div>
+    <div class="image-drop">
+        <img src="https://rukminim2.flixcart.com/flap/128/128/image/8014b1.jpg?q=100" alt="staples">
+    <li class="active"><a href="#">Dairy & Eggs</a>
+    <div class="sub-menu">
+        <ul>
+            <li class="hover-me"><a href="#">Dals & Pulses</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN DALS & PILSES</li>    
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Urad Dal</a></li>
+                    <li><a href="#">Moong Dal</a></li>
+                    <li><a href="#">Chana Dal</a></li>
+                    <li><a href="#">Other Pulses</a></li>
+                    <li><a href="#">Soya Chunks</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Ghee & Oils</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN GHEE & OILS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Blended Oil</a></li>
+                    <li><a href="#"> Ghee</a></li>
+                    <li><a href="#"> Sunflower Oil</a></li>
+                    <li><a href="#">Rice Bran</a></li>
+                    <li><a href="#"> Olive Oil</a></li>
+                    <li><a href="#"> Groundnut Oils</a></li>
+                    <li><a href="#"> Mustard Oils</a></li>
+                    <li><a href="#">Other Oils</a></li>
+
+
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Atta & Flours</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN ATTA & FLOURS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Wheat Atta</a></li>
+                    <li><a href="#"> Rice Flour</a></li>
+                    <li><a href="#"> Maida</a></li>
+                    <li><a href="#">Other Flours</a></li>
+                    <li><a href="#"> Grains</a></li>
+                    <li><a href="#">Rava and Sooji</a></li>
+                    <li><a href="#">Besan</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Masalas & Spices</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN MASALAS & SPICES</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                        <li><a href="#"> Powdered Spices</a></li>
+                            <li><a href="#"> Ready Masalas</a></li>
+                            <li><a href="#">Cooking Pastes & Purees</a></li>
+                            <li><a href="#"> Herbs & Seasonings</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Rice & RiceProducts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN RICE PRODUCTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Sona Masoori Rice</a></li>
+                    <li><a href="#">Other Rice Varieties</a></li>
+                    <li><a href="#"> Poha</a></li>
+                    <li><a href="#"> Puffed Rice</a></li>
+                    <li><a href="#">Basmati Rice</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">DryFruites,Nuts & Seeds</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN DRYFRUITES,NUTS & SEEDS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Cashew Nuts</a></li>
+                    <li><a href="#">Almonds</a></li>
+                    <li><a href="#">Dates & Raisins</a></li>
+                    <li><a href="#"> Dried Fruits</a></li>
+                    <li><a href="#"> Edible Seeds</a></li>
+                    <li><a href="#">Other Nuts</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Sugar,Jaggery & Salts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN SUGAR,JAGGERY & SALTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Salt</a></li>
+                    <li><a href="#">Sugar</a></li>
+                    <li><a href="#">Sugar Free</a></li>
+                    <li><a href="#">Jaggery</a></li>
+                </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </li>
+    
+    </li>
+</div>
+    <div class="image-drop">
+        <img src="https://rukminim2.flixcart.com/flap/128/128/image/e6e0ecc56771471a.png?q=100" alt="staples">
+    <li class="active"><a href="#">Home & Kitchen</a>
+    <div class="sub-menu">
+        <ul>
+            <li class="hover-me"><a href="#">Dals & Pulses</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN DALS & PILSES</li>    
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Urad Dal</a></li>
+                    <li><a href="#">Moong Dal</a></li>
+                    <li><a href="#">Chana Dal</a></li>
+                    <li><a href="#">Other Pulses</a></li>
+                    <li><a href="#">Soya Chunks</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Ghee & Oils</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN GHEE & OILS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Blended Oil</a></li>
+                    <li><a href="#"> Ghee</a></li>
+                    <li><a href="#"> Sunflower Oil</a></li>
+                    <li><a href="#">Rice Bran</a></li>
+                    <li><a href="#"> Olive Oil</a></li>
+                    <li><a href="#"> Groundnut Oils</a></li>
+                    <li><a href="#"> Mustard Oils</a></li>
+                    <li><a href="#">Other Oils</a></li>
+
+
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Atta & Flours</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                    <li class="reference">MORE IN ATTA & FLOURS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Wheat Atta</a></li>
+                    <li><a href="#"> Rice Flour</a></li>
+                    <li><a href="#"> Maida</a></li>
+                    <li><a href="#">Other Flours</a></li>
+                    <li><a href="#"> Grains</a></li>
+                    <li><a href="#">Rava and Sooji</a></li>
+                    <li><a href="#">Besan</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Masalas & Spices</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN MASALAS & SPICES</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Whole Spices</a></li>
+                        <li><a href="#"> Powdered Spices</a></li>
+                            <li><a href="#"> Ready Masalas</a></li>
+                            <li><a href="#">Cooking Pastes & Purees</a></li>
+                            <li><a href="#"> Herbs & Seasonings</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Rice & RiceProducts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN RICE PRODUCTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Sona Masoori Rice</a></li>
+                    <li><a href="#">Other Rice Varieties</a></li>
+                    <li><a href="#"> Poha</a></li>
+                    <li><a href="#"> Puffed Rice</a></li>
+                    <li><a href="#">Basmati Rice</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">DryFruites,Nuts & Seeds</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN DRYFRUITES,NUTS & SEEDS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#"> Cashew Nuts</a></li>
+                    <li><a href="#">Almonds</a></li>
+                    <li><a href="#">Dates & Raisins</a></li>
+                    <li><a href="#"> Dried Fruits</a></li>
+                    <li><a href="#"> Edible Seeds</a></li>
+                    <li><a href="#">Other Nuts</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="hover-me"><a href="#">Sugar,Jaggery & Salts</a><i class="fa-angle-right"></i>
+                <div class="sub-menu-2">
+                    <ul>
+                        <li class="reference">MORE IN SUGAR,JAGGERY & SALTS</li>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Salt</a></li>
+                    <li><a href="#">Sugar</a></li>
+                    <li><a href="#">Sugar Free</a></li>
+                    <li><a href="#">Jaggery</a></li>
+                </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    </li>
+    
+    </li>
+</div>
+</ul>
+</div>
+<br>
+<div class="rehbsj">
+<section class="categories" id="categories">
+    <h1 class="heading"> Staples Products</h1>
+<div>
+    <h1 style="padding-bottom: 5px; font-size: 20px;">Ghee & Oils:</h1>
+</div>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="oil gold.jpg" alt="">
+            <h3>Gold winner oil pack</h3>
+            <p>1Ltr= 70RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil jf.jpg" alt="">
+            <h3>gold winner can oil</h3>
+            <p>5kg = 260RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil pack.jpg" alt="">
+            <h3>Fortuner sunflower oil</h3>
+            <p> 1Ltr = 80RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="vegeatable ghee.jpg" alt="">
+            <h3>Aseel vegetable oil</h3>
+            <p> 1kg = 75RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="Yogti whole ghee.jpg" alt="">
+            <h3>ghee</h3> 
+            <p>1/2kg = 50RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="AAvin GHee.jpg" alt="">
+            <h3>ghee</h3> 
+            <p>1/2kg = 50RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil 10ltr.jpg" alt="">
+            <h3>gold winner can oil</h3>
+            <p>5kg = 260RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil.jpg" alt="">
+            <h3>fortune can oil</h3>
+            <p>5kg = 260RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+        
+        <div class="box">
+            <img src="oil gold.jpg" alt="">
+            <h3>Gold winner oil pack</h3>
+            <p>1Ltr= 70RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil jf.jpg" alt="">
+            <h3>gold winner can oil</h3>
+            <p>5kg = 260RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil pack.jpg" alt="">
+            <h3>Fortuner sunflower oil</h3>
+            <p> 1Ltr = 80RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="vegeatable ghee.jpg" alt="">
+            <h3>Aseel vegetable oil</h3>
+            <p> 1kg = 75RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="Yogti whole ghee.jpg" alt="">
+            <h3>ghee</h3> 
+            <p>1/2kg = 50RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="AAvin GHee.jpg" alt="">
+            <h3>ghee</h3> 
+            <p>1/2kg = 50RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil 10ltr.jpg" alt="">
+            <h3>gold winner can oil</h3>
+            <p>5kg = 260RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+
+        <div class="box">
+            <img src="oil.jpg" alt="">
+            <h3>fortune can oil</h3>
+            <p>5kg = 260RS upto 45% off</p>
+            <a href="#" class="btn">BUY NOW</a>
+        </div>
+        
+    </div>
+</section>
+</div>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
